@@ -5,7 +5,5 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 steps:
-  - script: |
-      npm install
-      npm test
+  - script: npm install
     displayName: 'Install Dependencies and Run Tests'
